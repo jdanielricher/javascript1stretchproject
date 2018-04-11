@@ -24,14 +24,13 @@ var responseCreator = function(param){
   if (param){
       
   } 
-  if (param = "green"){
+  if (param === "green"){
     colorResponse = "Green is okay";
-  } else if(param = "red"){
+  } else if(param === "red"){
     colorResponse = "I heart red";
   } else {
     colorResponse = "What is your favorite color?";
     return colorResponse;
-
   }
 }
 
